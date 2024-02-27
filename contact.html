@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lucky Shrub - Contact Us</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="shrub.ico">
+        <meta name="title" content="Lucky Shrub">
+        <meta name="description" content="Lucky Shrub Home Page">
+        <meta name="author" content="Renato Alvares">
+        <meta name="robots" content="index, follow">
+        <meta name="copyright" content="Copyright 2024">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <img src="Asset 4@3x.png" class="logo anilogo" height="120px" alt="Lucky Shrub Logo"> 
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="contactform">
+                <h4>Send us your inquiry, we will attempt to answer it within 48h</h4><br>
+                <div>
+                    <form action="sent.html" method="post" >
+                        <div id="addressas">
+                            <input type="radio" name="addressas" value="sr">
+                            <label for="sr">Sr.</label>
+                            <input type="radio" name="addressas" value="ms">
+                            <label for="ms">Ms.</label>
+                            <input type="radio" name="addressas" value="mss">
+                            <label for="mss">Mss.</label>
+                            <input type="radio" name="addressas" value="other">
+                            <label for="other">Other</label>
+                        </div>
+                        <div>
+                            <label for="user_first_name" id="labeltxt">Name *</label><br>
+                            <input type="text" id="name" name="name" required minlength="3" maxlength="12" placeholder="Enter you name">
+                        </div>
+                        <div>
+                            <label for="contact_email" id="labeltxt">E-mail<i>*</i></label><br>
+                            <input type="email" id="contact_email" name="contact_email" required placeholder="Enter you email address">
+                        </div>
+                        <div>
+                            <label for="message" id="labeltxt">Message:</label><br>
+                            <textarea id="message" name="message" placeholder="Enter your message max 500 characters." maxlength="500"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" id="submitbuttom" style="width: 100px; padding: 6px;">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <img src="Asset 1@3x.png" class="anilogo" height="80px" alt="Lucky Shrub Logo">
+            </div>
+            <div>
+                <p>Copyright 2024</p>
+            </div>
+
+        </footer>
+    </body>
+</html>
